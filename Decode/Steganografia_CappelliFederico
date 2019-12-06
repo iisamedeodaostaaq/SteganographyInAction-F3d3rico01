@@ -1,10 +1,9 @@
 img = loadImage("out.tiff")                   
-image(img, 0, 0)                              
+image(img, 0, 0)                             
 
-loadPixels()                                  
+loadPixels()                                 
 
-
-frase=[]                                      
+frase=[]                                     
 lato_pixel=50                                 
 lato_img=500                                  
 size(500,500)
