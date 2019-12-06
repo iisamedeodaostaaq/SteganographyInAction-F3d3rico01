@@ -20,7 +20,38 @@ while pixels[i] != color(204,204,204):
     if pixels[i] != color(204,204,204):
         i=i+lato_pixel                        
     if(i%(lato_img-1)==0):                    
+        i=i+(lato_img*(lato_pixel-1))img = loadImage("out.tiff")                    
+image(img, 0, 0)                              
+
+loadPixels()                                  
+
+
+frase=[]                                      
+lato_pixel=50                                
+lato_img=500                                 
+size(500,500)
+
+
+i=49                                          
+while pixels[i] != color(204,204,204):        
+    if pixels[i] != color(204,204,204):
+        r=int(red(pixels[i]))                 
+    if pixels[i] != color(204,204,204):
+        g=int(green(pixels[i]))               
+    if pixels[i] != color(204,204,204):
+        b=int(blue(pixels[i]))                
+    if pixels[i] != color(204,204,204):
+        i=i+lato_pixel                        
+    if(i%(lato_img-1)==0):                    
         i=i+(lato_img*(lato_pixel-1))
+    frase.append(chr(r))                      
+    frase.append(chr(g))
+    frase.append(chr(b))
+
+stringa=""
+for ele in frase:                            
+    stringa += ele
+print stringa
     frase.append(chr(r))                      
     frase.append(chr(g))
     frase.append(chr(b))
