@@ -4,14 +4,15 @@ Correzione compito
   * il codice funziona, ma l'utilizzo di alcune variabili non è affatto chiaro
   * nel decode non si capisce perchè ti fermi se trovi il colore 204,204,204
   * nel decode fai dei test inutili per ogni componente del pixel
+  * per il decode vedi Porcelluzzi
 
 -Chiarezza del Codice (4):
    * nessun commento
 
--Completezza del Codice (10):
-   * ok
+-Completezza del Codice (8):
+   * ok, ma non mi piace che tu e Porcelluzzi abbiate "condiviso" il codice
 
 -Originalità (7):
    * hai usato l'input grafico
    
-Voto finale: 6,5
+Voto finale: 6
