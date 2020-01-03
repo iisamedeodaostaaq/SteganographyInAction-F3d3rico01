@@ -1,0 +1,17 @@
+Correzione compito
+
+-Correttezza Codice (6): 
+  * il codice funziona, ma l'utilizzo di alcune variabili non è affatto chiaro
+  * nel decode non si capisce perchè ti fermi se trovi il colore 204,204,204
+  * nel decode fai dei test inutili per ogni componente del pixel
+
+-Chiarezza del Codice (4):
+   * nessun commento
+
+-Completezza del Codice (10):
+   * ok
+
+-Originalità (7):
+   * hai usato l'input grafico
+   
+Voto finale: 6,5
